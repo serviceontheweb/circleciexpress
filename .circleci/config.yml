@@ -9,6 +9,6 @@ jobs:
       - run: npm start & 
       - run: npm test 
       - deploy:
-          name: digital-ocean
-          command: ssh -o "StrictHostKeyChecking no" ec2-user@18.132.213.174"cd ~/circleciexpress; git pull; npm install; npm start &"
+          name: Amazon Web Serivces
+          command: ssh -o "StrictHostKeyChecking " ec2-user@18.132.213.174"cd ~/circleciexpress; git pull; npm install; npm start &"
   
